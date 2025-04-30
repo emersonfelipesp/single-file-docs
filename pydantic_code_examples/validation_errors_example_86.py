@@ -1,0 +1,13 @@
+
+from pydantic import BaseModel, Field, ValidationError
+
+
+class Model(BaseModel):
+    x: list[int] = Field(max_length=3)
+
+
+try:
+    Model(x=[1, 2, 3, 4])
+except ValidationError as exc:
+    print(repr(exc.errors()[0]['type']))
+    #> 'too_long'

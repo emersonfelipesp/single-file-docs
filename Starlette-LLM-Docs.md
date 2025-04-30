@@ -5882,3 +5882,9 @@ app = Starlette(debug=True, routes=[WebSocketRoute("/ws", websocket_endpoint)])
 ```
 
 <!-- Test the above with `npx wscat -c ws://localhost:8000/ws -s Authorization -s token` -->
+
+
+# Code Examples
+
+All code examples have been extracted and saved in the `starlette_code_examples` directory.
+You can find them organized by their corresponding documentation files.

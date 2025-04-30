@@ -1,0 +1,5 @@
+
+{
+    'type': 'bool',
+    'strict': True,
+}
