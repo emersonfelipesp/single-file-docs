@@ -111,7 +111,7 @@ def main():
         return
     
     # Create the output file
-    output_file = "merged_fastapi_docs.md"
+    output_file = "FastAPI-LLM-Docs.md"
     
     # Merge documentation and examples
     merge_documentation(output_file)
