@@ -2,6 +2,7 @@
 starlette/
 fastapi/
 pydantic/
+django/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
